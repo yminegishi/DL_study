@@ -21,6 +21,9 @@ After setting, run "run_create_db.py"
 
 python run_create_db.py
 
+After completed, you can get database filled with horse race information!!
+
+
 3) checkout a branch you'd like to try on
 
 git checkout v1_0_with_chainer
