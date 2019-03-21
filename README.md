@@ -3,6 +3,7 @@ The project to study deep learning for analysis of horse races
 
 ## Required
 -pymysql<br>-BeautifulSoup(bs4)
+<br>-chainer
 
 The data was scraped from "netkeiba.com". If you want to use all data, you must register this site.
 
@@ -19,5 +20,15 @@ If you want data for other years, you must change "year" to other year.
 After setting, run "run_create_db.py"
 
 python run_create_db.py
+
+3) checkout a branch you'd like to try on
+
+git checkout v1_0_with_chainer
+
+4) run Neural Network
+read_dataset.py : read input values from database
+<br>networks.py : models of Neural Network
+
+python keiba_AI_v1_0.py [password_of_MySQL]
 
 
