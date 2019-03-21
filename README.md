@@ -20,4 +20,14 @@ After setting, run "run_create_db.py"
 
 python run_create_db.py
 
+3) checkout a branch you'd like to try on
+
+git checkout v1_0_with_chainer
+
+4) run Neural Network
+read_dataset.py : read input values from database
+<br>networks.py : models of Neural Network
+
+python keiba_AI_v1_0.py [password_of_MySQL]
+
 
