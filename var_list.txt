@@ -1,0 +1,15 @@
+#####################
+# #:unused variable #
+#####################
+#jockey
+#frame
+#train_score
+popu
+#length
+############
+# prev_var #
+############
+#speed
+diff
+#posi
+
