@@ -40,9 +40,9 @@ comm_create_tb += " ( \
 	rst_odds_m2 CHAR(10), \
 	rst_odds_m3 CHAR(10), \
 	time CHAR(20), \
-  diff CHAR(10), \
-  posi CHAR(20), \
-  time_3F CHAR(10), \
+	diff CHAR(10), \
+	posi CHAR(20), \
+	time_3F CHAR(10), \
 	field CHAR(5), \
 	length CHAR(10), \
 	field_cdt CHAR(10), \
@@ -50,9 +50,9 @@ comm_create_tb += " ( \
 	weather CHAR(10), \
 	race_class CHAR(20), \
 	cdt_rank CHAR(10), \
-  speed CHAR(10), \
-  late CHAR(10), \
-  train_score CHAR(5) \
+	speed CHAR(10), \
+	late CHAR(10), \
+	train_score CHAR(5) \
 	)"
 cur.execute(comm_create_tb)
 conn.commit()
