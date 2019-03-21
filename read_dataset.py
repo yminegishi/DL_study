@@ -344,8 +344,8 @@ class read_database():
 		for i in range(0, len(optvar_test)):
 			for j in range(0, 18 - len(optvar_test[i])):
 				optvar_test[i].append(["0"] * self.nb_var)
-		x_train      = np.array(optvar_train, dtype=np.int32)
-		x_test       = np.array(optvar_test, dtype=np.int32)
+		x_train = np.array(optvar_train, dtype=np.int32)
+		x_test  = np.array(optvar_test, dtype=np.int32)
 		t_train = np.array(fin_odr_train, dtype=np.int32)
 		t_test  = np.array(fin_odr_test, dtype=np.int32)
 
