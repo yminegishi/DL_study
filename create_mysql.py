@@ -4,8 +4,8 @@ import pymysql
 ### params should be set #####
 ##############################
 PASS_MySQL = "password"
-NAME_DB = "test_db"
-NAME_TABLE = "test_table"
+NAME_DB = "keiba_db"
+NAME_TABLE = "race_tb_v2"
 ##############################
 
 conn = pymysql.connect(host="127.0.0.1", unix_socket="/tmp/mysql.sock", user="root", passwd=PASS_MySQL, db="mysql")

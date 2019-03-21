@@ -5,8 +5,8 @@ from time import sleep
 ID_NETKEIBA = "e-mail_address"
 PASS_NETKEIBA = "password"
 PASS_MySQL = "password"
-NAME_DB = "test_db"
-NAME_TABLE = "test_table"
+NAME_DB = "keiba_db"
+NAME_TABLE = "race_tb_v2"
 year="2018"
 ##########################################
 
