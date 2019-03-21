@@ -2,7 +2,7 @@
 The project to study deep learning for analysis of horse races 
 
 ## Required
-pymysql<br>BeautifulSoup(bs4)
+-pymysql<br>-BeautifulSoup(bs4)
 
 The data was scraped from "netkeiba.com". If you want to use all data, you must register this site.
 
